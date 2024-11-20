@@ -1,0 +1,55 @@
+.yellow-container {
+    background-color: yellow;
+    width: 550px;
+    padding: 15px 40px 20px 40px;
+    border: 2px solid #FF0000;
+    border-radius: 15px;
+}
+
+.green-container {
+    background-color: green;
+    width: 500px;
+    height: auto;
+    border: 4px solid #FF0000;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.box-one {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+.blue-container {
+    background-color: blue;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.orange-container {
+    background-color: orange;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 25px auto;
+    text-align: center;
+    color: black;
+}
+
+.red-container {
+    background-color: red;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    
+}
