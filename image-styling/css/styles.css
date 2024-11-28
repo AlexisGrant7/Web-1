@@ -1,0 +1,55 @@
+.yellow-container {
+    background-color: yellow;
+    width: 550px;
+    padding: 15px 40px 20px 40px;
+    border: 2px solid #FF0000;
+}
+
+.image-1 {
+    background-image: url("/images/boopers.jpeg");
+    width: 450px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.image-2 {
+    background-image: url("/images/boopers.jpeg");
+    background-repeat: repeat;
+    background-size: 250px; 
+    width: 450px;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+.image-3 {
+    background-image: url("/images/boopers.jpeg");
+    background-repeat: no-repeat;
+    background-color: deepskyblue;
+    background-position: right center;
+    background-size: 250px; 
+    width: 450px;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+.image-4 {
+    background-color: deepskyblue;
+    object-fit: cover;
+    width: 450px;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+.image-5 {
+    background-color: deepskyblue;
+    width: 450px;
+    height: 600px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    object-position: bottom;
+    object-fit: none;
+}
+
+
+
+
