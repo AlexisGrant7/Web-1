@@ -6,14 +6,14 @@
 }
 
 .image-1 {
-    background-image: url('/images/boopers.jpeg');
+    background-image: url('image-styling/images/boopers.jpeg');
     width: 450px;
     height: 300px;
     margin-bottom: 20px;
 }
 
 .image-2 {
-    background-image: url('/images/boopers.jpeg');
+    background-image: url('image-styling/images/boopers.jpeg');
     background-repeat: repeat;
     background-size: 250px; 
     width: 450px;
@@ -22,7 +22,7 @@
 }
 
 .image-3 {
-    background-image: url('/images/boopers.jpeg');
+    background-image: url('image-styling/images/boopers.jpeg');
     background-repeat: no-repeat;
     background-color: deepskyblue;
     background-position: right center;
