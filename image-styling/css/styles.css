@@ -1,8 +1,9 @@
 .yellow-container {
     background-color: yellow;
-    width: 550px;
-    padding: 15px 40px 20px 40px;
+    padding: 15px 75px 20px 75px;
+    width: 450px;
     border: 2px solid #FF0000;
+    margin: auto;
 }
 
 .image-1 {
