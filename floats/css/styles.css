@@ -1,0 +1,84 @@
+.yellow-container {
+    background-color: yellow;
+    width: 600px;
+    padding: 20px 75px 50px 75px;
+}
+
+
+.green-container {
+    background-color: green;
+    padding: 20px 20px 20px 20px;
+    height: 190px;
+}
+
+.aqualeft-container {
+    background-color: aqua;
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+}
+
+.brownright-container {
+    background-color: rosybrown;
+    float: right;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+}
+
+.teal-container {
+    background-color: teal;
+    padding: 20px 20px 20px 20px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.beigeleft-container {
+    background-color: beige;
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+}
+
+.blackright-container {
+    background-color: black;
+    float: right;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+}
+
+.orange-container {
+    background-color: orange;
+    float: left;
+    margin-top: 20px;
+    width: 520px;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+}
+
+.brown-container {
+    background-color: saddlebrown;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+.brown-container p {
+    color: white;
+    font-size: 18px;
+}
+
+.purpleleft-container {
+    background-color: purple;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: auto;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+}
+
+
+
