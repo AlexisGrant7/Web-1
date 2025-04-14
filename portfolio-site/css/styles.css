@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400&family=Paytone+One&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global */
+body {
+  font-family: 'Manrope', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background-color: #dbacd5;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.header h1 {
+  color: #000;
+  font-family: 'Paytone One', sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 31px;
+  border-radius: 999px;
+  text-decoration: none;
+  min-width: 240px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: #f0f0f0;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+/* About Section */
+.about {
+  background-color: #ffe9fc;
+  padding: 60px 0;
+}
+
+.about h2 {
+  font-size: 70px;
+  font-family: 'Paytone One', sans-serif;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #000;
+  text-align: left;
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-photo img {
+  width: 463px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 800px;
+}
+
+.about-text p {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.4;
+}
+
+/* Portfolio Section */
+.portfolio {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+.portfolio h2 {
+  font-size: 70px;
+  font-family: 'Paytone One', sans-serif;
+  font-weight: 400;
+  margin-bottom: 40px;
+  color: #000;
+  text-align: center;
+}
+
+.portfolio-images {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.portfolio-img {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-img.wizard {
+  width: 654px;
+}
+
+.portfolio-img.spin,
+.portfolio-img.riff {
+  width: 1341px;
+}
+
+/* About Section */
+@media (max-width: 1024px) {
+  .header h1 {
+    line-height: 1.1;
+  }
+	
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-text {
+    margin-top: 20px;
+  }
+}
+
+
+/* Mobile Section */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 48px;
+    line-height: 1;
+  }
+	
+  .nav {
+    gap: 20px;
+  }
+
+  .about h2,
+  .portfolio h2 {
+    text-align: center;
+  }
+
+  .about-text p {
+    font-size: 30px;
+  }
+
+  .portfolio-img {
+    width: 100% !important;
+  }
+}
+
